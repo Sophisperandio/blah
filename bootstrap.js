@@ -37,7 +37,7 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
+				'DONUTS', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
 				'An Author',			// this is the AUTHOR place in the class
 				'doughnuts500-350.jpg',	// this is the IMAGE place in the class
@@ -45,26 +45,26 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Second Post: Lorem',
+				'CAREMEL BROWNIE: delicious',
 				'https://vuejs.org',
 				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
+				'Chocolatecake.jpg', // this is a local image in the same folder as the js script
 				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
+				'ICE CREAM SANDWICHES: yes',
 				'https://google.com',
 				'Bob Author',
-				'https://unsplash.it/200',
+				'icecream.jpeg',
 				'Crazy Fredrick bought many very exquisite opal jewels.'
 				),
 
 			new Post(
-				'Another Post: promptly judged',
+				'CHURROS: promptly judged',
 				'https://vuejs.org',
 				'Jane Author',
-				'https://unsplash.it/200',
+				'churros.jpeg',
 				'We promptly judged antique ivory buckles for the next prize.'
 				),
 
