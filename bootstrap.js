@@ -39,39 +39,38 @@ const app = new Vue({
 			new Post(
 				'DONUTS', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
+				'Sophi Sperandio',			// this is the AUTHOR place in the class
 				'doughnuts500-350.jpg',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'Made from scratch and a delicacy' // this is the BODY place in the class
 				),
 
 			new Post(
 				'CAREMEL BROWNIE: delicious',
 				'https://vuejs.org',
-				'Sammie Author',
+				'Sophi Sperandio',
 				'Chocolatecake.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'BROWNIES ARE SO GOOD'
 				),
 
 			new Post(
 				'ICE CREAM SANDWICHES: yes',
 				'https://google.com',
-				'Bob Author',
+				'Sophi Sperandio',
 				'icecream.jpeg',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
-				),
+				'Perfect for a day when your feeling down'		),
 
 			new Post(
-				'CHURROS: promptly judged',
+				'CHURROS: Scrumptious',
 				'https://vuejs.org',
-				'Jane Author',
+				'Sophi Sperandio',
 				'churros.jpeg',
-				'We promptly judged antique ivory buckles for the next prize.'
+				'The good ones are only at Costco and 6 Flags'
 				),
 
 			new Post(
 				'Last Post: Jaded zombies',
 				'https://google.com',
-				'Anptoght Author',
+				'Sophi Sperandio',
 				'#',
 				'Jaded zombies acted quaintly but kept driving their oxen forward.'
 				)
