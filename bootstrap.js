@@ -37,11 +37,11 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'DONUTS', 		// this is the TITLE place in the class
+				'DONUTS: So Good', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
 				'Sophi Sperandio',			// this is the AUTHOR place in the class
 				'doughnuts500-350.jpg',	// this is the IMAGE place in the class
-				'Made from scratch and a delicacy' // this is the BODY place in the class
+				'Made from scratch and a delicacy.' // this is the BODY place in the class
 				),
 
 			new Post(
@@ -49,7 +49,7 @@ const app = new Vue({
 				'https://vuejs.org',
 				'Sophi Sperandio',
 				'Chocolatecake.jpg', // this is a local image in the same folder as the js script
-				'BROWNIES ARE SO GOOD'
+				'BROWNIES ARE SO GOOD.'
 				),
 
 			new Post(
@@ -57,22 +57,22 @@ const app = new Vue({
 				'https://google.com',
 				'Sophi Sperandio',
 				'icecream.jpeg',
-				'Perfect for a day when your feeling down'		),
+				'Perfect for a day when your feeling down.'		),
 
 			new Post(
 				'CHURROS: Scrumptious',
 				'https://vuejs.org',
 				'Sophi Sperandio',
 				'churros.jpeg',
-				'The good ones are only at Costco and 6 Flags'
+				'The good ones are only at Costco and 6 Flags.'
 				),
 
 			new Post(
-				'Last Post: Jaded zombies',
+				'Smore Pie: HEAVEN',
 				'https://google.com',
 				'Sophi Sperandio',
-				'#',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				'smores.jpg',
+				'You have probably died if you are tasting this.'
 				)
 		]
 	},
