@@ -37,8 +37,8 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'DONUTS: So Good', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
+				'DONUTS: Supercalifragilisticexpialidocious', 		// this is the TITLE place in the class
+				'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=16&cad=rja&uact=8&ved=0ahUKEwjDzM7a5p_UAhVrl1QKHdVcAaoQFgh1MA8&url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F1017060-doughnuts&usg=AFQjCNFSTofIK7Hj6CYItiasAsmTa0WgeQ',	// this is the LINK place in the class
 				'Sophi Sperandio',			// this is the AUTHOR place in the class
 				'doughnuts500-350.jpg',	// this is the IMAGE place in the class
 				'Made from scratch and a delicacy.' // this is the BODY place in the class
@@ -46,7 +46,7 @@ const app = new Vue({
 
 			new Post(
 				'CAREMEL BROWNIE: delicious',
-				'https://vuejs.org',
+				'https://www.bettycrocker.com/recipes/product-recipes/brownie-mix-recipes/caramel-brownie-recipes',
 				'Sophi Sperandio',
 				'Chocolatecake.jpg', // this is a local image in the same folder as the js script
 				'BROWNIES ARE SO GOOD.'
@@ -54,14 +54,15 @@ const app = new Vue({
 
 			new Post(
 				'ICE CREAM SANDWICHES: yes',
-				'https://google.com',
+				'http://www.delish.com/cooking/g2135/ice-cream-sandwich-recipes/',
 				'Sophi Sperandio',
 				'icecream.jpeg',
-				'Perfect for a day when your feeling down.'		),
+				'Perfect for a day when your feeling down.'
+				),
 
 			new Post(
 				'CHURROS: Scrumptious',
-				'https://vuejs.org',
+				',http://allrecipes.com/recipe/24700/churros/',
 				'Sophi Sperandio',
 				'churros.jpeg',
 				'The good ones are only at Costco and 6 Flags.'
@@ -69,7 +70,7 @@ const app = new Vue({
 
 			new Post(
 				'Smore Pie: HEAVEN',
-				'https://google.com',
+				',http://www.myrecipes.com/recipe/smore-pie',
 				'Sophi Sperandio',
 				'smores.jpg',
 				'You have probably died if you are tasting this.'
